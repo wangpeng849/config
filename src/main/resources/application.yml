@@ -12,3 +12,8 @@ spring:
         git:
           uri: https://github.com/wangpeng849/SpringcloudConfig
           basedir: H:/studycloud/config/basedir
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
